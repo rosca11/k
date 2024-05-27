@@ -159,6 +159,7 @@ public class ProdottoDao implements ProdottoDaoInterfaccia{
 		listOrder.add("data_uscita");
 		listOrder.add("prezzo");
 		listOrder.add("quantita");
+		
 
 		String selectSQL = "SELECT * FROM " + ProdottoDao.TABLE_NAME;
 
